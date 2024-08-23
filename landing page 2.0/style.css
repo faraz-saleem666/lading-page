@@ -226,3 +226,61 @@ button:hover{
     transition: 0.2s;
 
 }
+@media screen and (max-width:1000px) {
+    body{
+        height: 190vh;
+        transition: 0.3s;
+    }
+
+    .bg-img {
+        width: 90%;
+        right: 5px;
+        top: 500px;
+        transition: 0.3s;
+    }
+
+    main {
+        position: relative;
+    }
+
+    #Overview {
+        font-size: larger;
+        position: absolute;
+        top: 800px;
+        width: 100%;
+        z-index: 4;
+        transition: 0.3s;
+    }
+
+    .blur {
+        top: 40%;
+        left: 15%;
+        transition: 0.3s;
+    }
+
+    .blur2 {
+        top: 30%;
+        right: 10%;
+        transition: 0.3s;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        transition: 0.3s;
+    }
+
+    .video {
+        position: absolute;
+        top: 1000px;
+        left: 115px;
+        transition: 0.3s;
+    }
+    button{
+        position: absolute;
+        top: 1400px;
+        left: 315px;
+        height: max-content;
+        width: 30vw;
+        transition: 0.3s;
+    }
+}
